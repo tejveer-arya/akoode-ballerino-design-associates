@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 162.3 66.8">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f57f20;
+        font-family: Neuropol, Neuropol;
+        font-size: 50px;
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(23.6 47.9)"><tspan x="0" y="0">Bda</tspan></text>
+  <polyline class="cls-2" points="23.1 16.1 23.1 49.8 138.8 49.8 138.8 16.1 23.1 16.1"/>
+</svg>
