@@ -14174,7 +14174,7 @@ xclip
   justify-content: space-between;
   padding: 0 80px;
 }
-.rts-header-style-one a img{width:150px;margin-left: -18px;}
+
 @media only screen and (max-width: 1199px) {
   .rts-header-style-one {
     padding: 0 40px;
@@ -14197,7 +14197,7 @@ xclip
 }
 @media only screen and (max-width: 575px) {
   .rts-header-style-one .logo img {
-    max-width: 120px;
+    max-width: 200px;
   }
 }
 .rts-header-style-one .action-area {
@@ -17553,7 +17553,8 @@ a {
     display: none;
   }
 }
-
+.about-top-history-information .row{align-items: center;}
+.about-top-history-information + .rts-counterup-area-start .title-process-stock-text .stock-text-1{-webkit-text-stroke-color:var(--color-primary)}
 .about-inner-two-wrapper .disc {
   margin-bottom: 25px;
 }
@@ -18312,16 +18313,18 @@ a {
 .singe-serice-style-two .body .wrapper .inner a.arrow-btn-read-more {
   color: var(--bs-black);
 }
-.singe-serice-style-two .body .wrapper .inner a.arrow-btn-read-more i {
+.singe-serice-style-two .body .wrapper .inner a.arrow-btn-read-more svg {
   color: var(--bs-black);
   font-size: 16px;
   font-weight: 500;
   transition: 0.3s;
+  top: 1px;
+  position: relative;
 }
 .singe-serice-style-two .body .wrapper .inner a.arrow-btn-read-more:hover {
   color: var(--color-primary);
 }
-.singe-serice-style-two .body .wrapper .inner a.arrow-btn-read-more:hover i {
+.singe-serice-style-two .body .wrapper .inner a.arrow-btn-read-more:hover svg {
   margin-left: 20px;
   color: var(--color-primary);
 }
@@ -18467,8 +18470,10 @@ a {
 
 .service-full-top-wrapper {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: space-between;
+  gap: 20px;
 }
 @media only screen and (max-width: 767px) {
   .service-full-top-wrapper {
@@ -18488,7 +18493,7 @@ a {
 }
 
 .single-service-style-five {
-  padding-right: 50px;
+  padding-right: 0px;
 }
 .single-service-style-five:hover .icon-area svg path {
   fill: var(--color-primary);
@@ -18505,6 +18510,9 @@ a {
   font-style: normal;
   font-weight: 600;
   line-height: 34px;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
   transition: 0.3s;
 }
 .single-service-style-five .body .title:hover {
@@ -20197,7 +20205,7 @@ a {
   line-height: 26px;
   letter-spacing: -0.32px;
   text-transform: capitalize;
-  max-width: 60%;
+  max-width: 100%;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio-grid-col-2-single .inner-text p.disc {
@@ -20865,7 +20873,7 @@ body.portfolio-boxes .swiper-product-one-box-page .thumbnail {
 .product-details-right-one .single-details-short .right {
   display: flex;
   flex-direction: column;
-  align-self: flex-end;
+  align-self: flex-start;
   justify-content: flex-end;
   margin-left: 50px;
 }
@@ -22564,6 +22572,24 @@ body.portfolio-boxes .swiper-product-one-box-page .thumbnail {
 .bg-footer-image {
   background-image: url(../assets/images/footer/01.jpg);
 }
+.rts-footer-area .rts-social-style-one ul{padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 15px;
+  list-style: none;}
+  .rts-footer-area .rts-social-style-one ul li a{ height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 1px solid #dfdfdf;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+    .rts-footer-area .rts-social-style-one ul li a:hover, .rts-footer-area .rts-social-style-one ul li a:focus{
+      background-color: var(--color-white);
+    }
+ 
 
 .footer-area-wrapper-one {
   display: flex;
@@ -22594,7 +22620,7 @@ body.portfolio-boxes .swiper-product-one-box-page .thumbnail {
   }
 }
 .footer-area-wrapper-one .single-footer-wized:nth-child(1) {
-  max-width: 347px;
+  max-width: 450px;
 }
 .footer-area-wrapper-one .single-footer-wized form input {
   border-bottom: 1px solid #4C535F;
@@ -22675,7 +22701,7 @@ body.portfolio-boxes .swiper-product-one-box-page .thumbnail {
 .copyright-style-one .copyright-area-main-wrapper-one {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 35px 0;
 }
 @media only screen and (max-width: 767px) {
