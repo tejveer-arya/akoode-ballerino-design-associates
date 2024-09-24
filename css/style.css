@@ -18269,7 +18269,8 @@ a {
   position: relative;
   z-index: 5;
   padding: 30px;
-  padding-bottom: 0;
+ min-height: 212px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 @media only screen and (max-width: 479px) {
   .singe-serice-style-two .body .wrapper {
@@ -18312,6 +18313,8 @@ a {
 }
 .singe-serice-style-two .body .wrapper .inner a.arrow-btn-read-more {
   color: var(--bs-black);
+  position: absolute;
+  bottom: 30px;
 }
 .singe-serice-style-two .body .wrapper .inner a.arrow-btn-read-more svg {
   color: var(--bs-black);
@@ -18494,6 +18497,16 @@ a {
 
 .single-service-style-five {
   padding-right: 0px;
+  position: relative;
+}
+.single-service-style-five .body{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: auto;
 }
 .single-service-style-five:hover .icon-area svg path {
   fill: var(--color-primary);
@@ -18505,7 +18518,7 @@ a {
   transition: 0.3s;
 }
 .single-service-style-five .body .title {
-  color: var(--bs-black);
+  color: var(--color-white);
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -18513,6 +18526,7 @@ a {
   text-align: center;
   padding: 10px 0;
   width: 100%;
+  margin:0;
   transition: 0.3s;
 }
 .single-service-style-five .body .title:hover {
@@ -18967,7 +18981,7 @@ a {
 }
 
 .service-v-2 .singe-serice-style-two .body {
-  margin: -150px 30px 0 30px;
+  margin: -150px 30px 30px 30px;
 }
 @media only screen and (max-width: 575px) {
   .service-v-2 .singe-serice-style-two .body {
