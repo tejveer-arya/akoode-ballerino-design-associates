@@ -16437,7 +16437,7 @@ a {
   }
 }
 .left-swiper-area-start .single-left-banner-swiper-start {
-  background: var(--bs-black);
+  background: rgba(58 65 71 / 90%);
   width: 354px;
   padding: 40px 30px 40px 30px;
 }
@@ -23986,7 +23986,7 @@ body.portfolio-boxes .swiper-product-one-box-page .thumbnail {
   justify-content: center;
 }
 .side-bar .inner-main-wrapper-desk .thumbnail img {
-  width: 114px;
+  width: 223px;
   margin: auto;
 }
 .side-bar .inner-main-wrapper-desk .inner-content {
